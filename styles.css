@@ -1,3 +1,75 @@
 *{
     margin: 0;
 }
+/* nav bar begins */
+.navClass {
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    border: solid 3px;
+    box-shadow: 5px 5px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+}
+li {
+    float: left;
+}
+li a {
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* nav bar ends */
+
+/* container */
+.container {
+    height: 9vw;
+    background-color:rgb(35, 159, 10);
+    text-align: center;
+    border: solid 3px;
+    margin: 5px;
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+}
+
+/* row starts */
+.row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+
+
+/* column starts */
+.column {
+    flex: 1;
+    padding: 10px;
+    height: 300px;
+    margin: 8px;
+    margin-bottom: 20px;
+    background-color:blue ;
+}
+
+/* backround for columns */
+.backround1{
+    background-image: url(https://images.pexels.com/photos/1632790/pexels-photo-1632790.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+.backround2{
+    background-color: orange;
+}
+.backround3{
+    background-color: red;
+}
+.backround4{
+    background-color: skyblue;
+}
